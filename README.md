@@ -1,7 +1,7 @@
 # Uncertainty-Guided Lung Nodule Segmentation with Feature-Aware Attention
 This is the code related to "Uncertainty-Guided Lung Nodule Segmentation with Feature-Aware Attention"-MICCAI 2022.
 
-<img src="https://github.com/yanghan-yh/UGS-Net/blob/main/network.png" width="800" >
+<img src="https://github.com/yanghan-yh/UGS-Net/blob/main/network.png" width="700" >
 
 # 1. Paper information
 Paper download: https://arxiv.org/abs/2110.12372
@@ -32,3 +32,5 @@ Training comparison method:
 ```
 python trainer_baseline.py
 ```
+#5. Result
+<img src="https://github.com/yanghan-yh/UGS-Net/blob/main/result.png" width="700" >
