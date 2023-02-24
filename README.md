@@ -42,5 +42,5 @@ python trainer_baseline.py
 # 6. Result
 
 <div align=center>
-<img src="https://github.com/yanghan-yh/UGS-Net/blob/main/result.png" width="700" >
+<img src="https://github.com/yanghan-yh/UGS-Net/blob/main/result.png" width="600" >
 </div>
