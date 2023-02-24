@@ -1,2 +1,2 @@
-# UGS-Net
-MICCAI 2022 Uncertainty-Guided Lung Nodule Segmentation with Feature-Aware Attention
+# Uncertainty-Guided Lung Nodule Segmentation with Feature-Aware Attention
+This is the code related to "Uncertainty-Guided Lung Nodule Segmentation with Feature-Aware Attention"-MICCAI 2022
