@@ -1,7 +1,9 @@
 # Uncertainty-Guided Lung Nodule Segmentation with Feature-Aware Attention
 This is the code related to "Uncertainty-Guided Lung Nodule Segmentation with Feature-Aware Attention"-MICCAI 2022.
 
+<div align=center>
 <img src="https://github.com/yanghan-yh/UGS-Net/blob/main/network.png" width="700" >
+</div>
 
 # 1. Paper information
 Paper download: https://arxiv.org/abs/2110.12372
@@ -23,6 +25,10 @@ Since radiologists have different training and clinical experience, they may pro
 # 4. Data Preprocess
 In this study, data in the LIDC-IDRI dataset needs to be preprocessed. Firstly, the number of annotations for each nodule was counted, and **the nodules with a number of annotations less than or equal to 2 were cleaned**. Then, each nodule's annotations were done with the intersection and union operation to obtain the intersection and union mask.  Specific operations can be referred to: https://github.com/qiuliwang/LIDC-IDRI-Toolbox-python.
 
+<div align=center>
+<img src="https://github.com/yanghan-yh/UGS-Net/blob/main/dif.png" width="800" >
+</div>
+
 # 5. Usage
 Training UGS-Net：
 ```
@@ -32,5 +38,9 @@ Training comparison method:
 ```
 python trainer_baseline.py
 ```
-#5. Result
+
+# 6. Result
+
+<div align=center>
 <img src="https://github.com/yanghan-yh/UGS-Net/blob/main/result.png" width="700" >
+</div>
