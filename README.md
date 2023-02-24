@@ -10,7 +10,31 @@ Paper download: https://arxiv.org/abs/2110.12372
 
 If you find it helpful to your research, please cite as follows:
 ```
-Wang Q ,  Yang H ,  Shen L , et al. Uncertainty-Aware Lung Nodule Segmentation with Multiple Annotations[J].  2021.
+@inproceedings{DBLP:conf/miccai/YangSZW22,
+  author    = {Han Yang and
+               Lu Shen and
+               Mengke Zhang and
+               Qiuli Wang},
+  editor    = {Linwei Wang and
+               Qi Dou and
+               P. Thomas Fletcher and
+               Stefanie Speidel and
+               Shuo Li},
+  title     = {Uncertainty-Guided Lung Nodule Segmentation with Feature-Aware Attention},
+  booktitle = {Medical Image Computing and Computer Assisted Intervention - {MICCAI}
+               2022 - 25th International Conference, Singapore, September 18-22,
+               2022, Proceedings, Part {V}},
+  series    = {Lecture Notes in Computer Science},
+  volume    = {13435},
+  pages     = {44--54},
+  publisher = {Springer},
+  year      = {2022},
+  url       = {https://doi.org/10.1007/978-3-031-16443-9\_5},
+  doi       = {10.1007/978-3-031-16443-9\_5},
+  timestamp = {Tue, 13 Dec 2022 14:39:06 +0100},
+  biburl    = {https://dblp.org/rec/conf/miccai/YangSZW22.bib},
+  bibsource = {dblp computer science bibliography, https://dblp.org}
+}
 ```
 
 # 2. Paper Abstract
