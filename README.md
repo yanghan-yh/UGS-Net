@@ -2,7 +2,7 @@
 This is the code related to "Uncertainty-Guided Lung Nodule Segmentation with Feature-Aware Attention"-MICCAI 2022.
 
 <div align=center>
-<img src="https://github.com/yanghan-yh/UGS-Net/blob/main/network.png" width="700" >
+<img src="https://github.com/yanghan-yh/UGS-Net/blob/main/Imgs/network.png" width="700" >
 </div>
 
 # 1. Paper information
@@ -36,7 +36,7 @@ The source code of *gcn* is from <https://github.com/jxgu1016/Gabor_CNN_PyTorch>
 In this study, data in the LIDC-IDRI dataset needs to be preprocessed. Firstly, the number of annotations for each nodule was counted, and **the nodules with a number of annotations less than or equal to 2 were cleaned**. Then, each nodule's annotations were done with the intersection and union operation to obtain the intersection and union mask.  Specific operations can be referred to: https://github.com/qiuliwang/LIDC-IDRI-Toolbox-python.
 
 <div align=center>
-<img src="https://github.com/yanghan-yh/UGS-Net/blob/main/dif.png" width="800" >
+<img src="https://github.com/yanghan-yh/UGS-Net/blob/main/Imgs/dif.png" width="800" >
 </div>
 
 # 5. Usage
@@ -52,5 +52,5 @@ python trainer_baseline.py
 # 6. Result
 
 <div align=center>
-<img src="https://github.com/yanghan-yh/UGS-Net/blob/main/result.png" width="600" >
+<img src="https://github.com/yanghan-yh/UGS-Net/blob/main/Imgs/result.png" width="600" >
 </div>
