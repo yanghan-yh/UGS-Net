@@ -30,6 +30,8 @@ Since radiologists have different training and clinical experience, they may pro
 * Pytorch 1.10.1
 * torchvision 0.11.2
 
+The source code of *gcn* is from <https://github.com/jxgu1016/Gabor_CNN_PyTorch>.
+
 # 4. Data Preprocess
 In this study, data in the LIDC-IDRI dataset needs to be preprocessed. Firstly, the number of annotations for each nodule was counted, and **the nodules with a number of annotations less than or equal to 2 were cleaned**. Then, each nodule's annotations were done with the intersection and union operation to obtain the intersection and union mask.  Specific operations can be referred to: https://github.com/qiuliwang/LIDC-IDRI-Toolbox-python.
 
